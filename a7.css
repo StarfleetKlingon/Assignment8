@@ -1,0 +1,117 @@
+   /*
+File:  www.github.com/StarfleetKlingon/Assignment8/a7.css
+91.461 Assignment 7:  Multiplication Table Part II: Validation
+Therese M. Kuczynski, UMass Lowell Computer Science Student, therese_kuczynski@student.uml.edu
+Copyright (c) 2015 by Therese M. Kuczynski.  All rights reserved.  May be freely
+ copied or excerpted for educational purposes with credit to the author.
+updated by TMK on December 9, 2015 at 9:00PM.
+*/
+
+.left{
+  float: left;
+  padding: 5px;
+  background: lightblue;
+}
+
+.right{
+ /* position: fixed; */
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+#slider_x .ui-slider-range, #slider_y .ui-slider-range {
+   background: gray;
+   }
+
+#slider_y{
+  background: turquoise;
+  border: 1px solid black;
+  margin-left: 2%;
+}
+
+#slider_x{
+  margin-left: 2%;
+  background: turquoise;
+  border: 1px solid black;
+}
+
+#x_slider_package{
+  color: red;
+  margin-right: 60%;
+  margin-left: 2%;
+}
+
+#y_slider_caption{
+  color: blue;
+  margin-left: 60%;
+  margin-right: 2%;
+}
+
+
+.ui-slider-handle{
+  background: darkgray;
+  border: 2px solid teal;
+}
+
+/* Set background. */
+        body{
+          background-color: #CCFAFF;
+        }
+
+/* Set header. */
+        h1{
+          color: teal; 
+        }
+
+/* Set lines in table. */
+        #mult-table{
+         margin-left: 500px;
+          background-color: black;
+          color: black;
+        }
+
+        /* Set table cells. */
+        #mult-table td{
+          padding: 5px;
+          background-color: aqua;
+       }
+
+       /* Set header row and column. */
+        #mult-table td:first-child{
+          background: teal;
+        }
+
+        #mult-table tr:first-child td{
+          background: teal;
+        }
+
+        /* Set corner cell to white. */
+        #mult-table tr:first-child td:first-child{
+          background: white;
+        }
+
+        /* Set second line of form below first. */
+        #vert{
+          padding: 1px;
+          margin: 1px;
+          border: 1px;
+        }
+
+        /* Format error. */
+        label.error{
+          color: red;
+          margin: 5px;
+        }
+
+        input.error{
+          border: 1px solid red;
+          margin-left: 5px;
+        }
+
+        /* Format green notice. */
+        #flash-notice{
+          color: #458B00;
+          font-style: italic;
+        }
