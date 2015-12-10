@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+File:  www.github.com/StarfleetKlingon/Assignment8/a5.html
+91.461 Assignment 8:  Multiplication Table Part III
+Therese M. Kuczynski, UMass Lowell Computer Science Student, therese_kuczynski@student.uml.edu
+Copyright (c) 2015 by Therese M. Kuczynski.  All rights reserved.  May be freely
+ copied or excerpted for educational purposes with credit to the author.
+updated by TMK on November 9, 2015 at 8:00PM.
+-->
+    <meta charset="UTF-8">  
+    <title>Multiplication Table</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="validation_plugin/dist/jquery.validate.min.js"></script>
+    <script src="validation_plugin/dist/additional-methods.min.js"></script>
+    <link href="JQueryUILib/jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet">
+    <script src="JQueryUILib/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="a7.css">
+    <script src="a5.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+<div class="left">
+<h1>Multiplication Table</h1>
+
+
+<form action="javascript:alert('form submitted')" id="grid" class="form-horizontal">
+    <!--form action="" id="grid" -->
+    <div id="horiz">Horizontal axis from <input type="number" name="x_low"> to <input type="number" name="x_high"></div>
+    <div id="vert">Vertical axis from <input type="number" name="y_low"> to <input type="number" name="y_high"></div>
+    <br>
+    <input type="submit" value="Submit">
+    <br><br>
+</form>
+
+<h3>Horizontal Axis</h3>
+From: <span id="sliderx-val1">None</span><br>
+To: <span id="sliderx-val2">None</span><br>
+<div id="slider_x"></div>
+
+
+    <h3>Vertical Axis</h3>
+    From: <span id="slidery-val1">None</span><br>
+    To: <span id="slidery-val2">None</span><br>
+    <div id="slider_y"></div>
+
+
+    </div>
+
+<div class="right">
+    <div id="flash-notice"></div><br>
+    <br>
+    <table id="mult-table"></table>
+</div>
+
+
+<script src="a8.js"></script>
+
+</body>
+
+</html>
